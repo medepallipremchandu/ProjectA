@@ -108,6 +108,7 @@ const ImageToPDF = () => {
   return (
     <Container className="image-to-pdf-container">
       <Row className="upload-section">
+        <h1>Image To Pdf Converter</h1>
         <Col>
           <Form.Group>
             <Form.Label>Upload Images</Form.Label>
@@ -150,7 +151,7 @@ const ImageToPDF = () => {
               <FaArrowsAlt className="drag-icon" />
               <Button
                 variant="secondary"
-                onClick={() => handleRotate(index, 'left')}
+                onClick={() => handleRotate(index, 'right')}
                 className="rotate-left-btn"
               >
                 <FaRedo />

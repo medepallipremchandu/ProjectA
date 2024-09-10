@@ -50,6 +50,7 @@ const OCR = () => {
   return (
     <Container className="ocr-container">
       <Row>
+      <h1>Image To Text Converter</h1>
         <Col>
           <Form.Group>
             <Form.Label>Upload Images</Form.Label>
