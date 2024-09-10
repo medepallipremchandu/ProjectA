@@ -1,0 +1,66 @@
+.image-to-pdf-container {
+  padding: 20px;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-section .form-group {
+  margin-bottom: 10px;
+}
+
+.upload-section button {
+  margin-top: 10px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-col {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Padding around the image */
+}
+
+.image-thumbnail {
+  transition: transform 0.3s ease-in-out;
+}
+
+.remove-image-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.drag-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.rotate-left-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.pdf-preview {
+  margin-top: 20px;
+}
+
+.modal-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}

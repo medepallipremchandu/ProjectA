@@ -1,0 +1,26 @@
+.layout-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ads {
+  width: 200px;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .ads {
+    display: none;
+  }
+  
+  .content {
+    padding: 10px;
+  }
+}

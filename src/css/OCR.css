@@ -1,0 +1,30 @@
+.ocr-container {
+  margin: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-col {
+  position: relative;
+}
+
+.image-thumbnail {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.extract-text-button {
+  margin-top: 20px;
+}
+
+.text-results {
+  margin-top: 20px;
+}
+
+.result-col {
+  margin-bottom: 20px;
+}
